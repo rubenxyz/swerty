@@ -1,8 +1,8 @@
 # Swerty
 
-A Swedish keyboard layout for US keyboards
+A Swedish keyboard layout for US keyboards.
 
-This repo is a mirror of [](http://johanegustafsson.net/projects/swerty/). Big thanks to the creator: Johan E. Gustafsson
+This repo is a mirror of [](http://johanegustafsson.net/projects/swerty/). Big thanks to Johan E. Gustafsson for creating this layout.
 
 The Swerty Keyboard Layout is a software keyboard layout for efficient typing in Swedish on US keyboards. The design goal for the Swerty layout is to retain as much as possible of the standard US layout (also known as the ANSI keyboard layout), while adding the keys **Å**, **Ä**, and **Ö** from the standard Swedish layout. This alternative software layout is especially useful if you are working on a US keyboard and want to write in Swedish. Arguably, Swerty is a better choice than the standard Swedish layout even if you are working on a Swedish keyboard, as it incorporates more of the superior key arrangement of the US layout. With the standard Swedish layout, many frequently used symbols are surprisingly inconvenient to type, such as **@** in email addresses, / in web addresses, and **$** in programming. These conventions were set by people who used the US layout where these symbols can be typed conveniently. The Swerty layout makes it possible to enjoy this convenience while typing in Swedish.
 
@@ -26,16 +26,37 @@ To install Swerty for Windows, uncompress the zip-file and run ‘setup.exe’.
 If you need to modify Swerty for Windows, you can do so by editing ‘Swerty.klc’ with Microsoft Keyboard Layout Creator.
 Swerty for Mac
 
-### Swerty for Mac
+## Swerty for Mac
 ![](swerty-mac.svg)
 
-Download Swerty for Mac
-![](swerty-mac.zip)
+### Intallation
+(Tested on Snow Leopard, Lion, Mountain Lion, Mavericks, Yosemite, Sierra, Mojave, Catalina)
+#### Homebrew
 
-(Tested on Snow Leopard, Lion, Mountain Lion, Mavericks, Yosemite, Sierra)
+If you already have Homebrew and Git, skip step 1 and 2. 
 
-To install Swerty for Mac, uncompress the zip-file and move the files to the folder ‘~/Library/Keyboard Layouts’.
-Swerty for Linux
+1. Go to [](https://brew.sh/) for instructions on how to install Homebrew.
+
+2. When homebrew is installed, copy/paste this into your terminal and press Enter to run. 
+```
+brew install git
+```
+
+3. Finally, copy/paste this command in your terminal to install Swerty and press enter to run. 
+
+```
+git clone https://github.com/rubensz/swerty/blob/master/Swerty.keylayout ~/Library/Keyboard\ Layouts && git clone https://github.com/rubensz/swerty/blob/master/Swerty.icns ~/Library/Keyboard\ Layouts
+```
+3. Restart your computer.
+4. Go into System Preferences/Keyboard/Input Sources, hit the plus sign and add Swerty.
+5. Select Swerty as your Input Source. 
+
+#### Manual install
+1. Download the files `Swerty.keylayout` and `Swerty.icns` from the repo. 
+2. Move the files to the folder ‘~/Library/Keyboard Layouts’.
+3. Restart your computer.
+4. Go into System Preferences/Keyboard/Input Sources, hit the plus sign and add Swerty.
+5. Select Swerty as your Input Source. 
 
 ### Swerty for Linux
 ![](swerty-linux.svg)
