@@ -37,7 +37,7 @@ If you already have Homebrew and Git, skip step 1 and 2.
 
 1. Go to [https://brew.sh](https://brew.sh/) for instructions on how to install Homebrew.
 
-2. When homebrew is installed, copy/paste this into your terminal and press Enter to run. 
+2. When Homebrew is installed, copy/paste this into your terminal and press Enter to run. 
 ```
 brew install git
 ```
