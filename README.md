@@ -1,4 +1,4 @@
-# Swerty
+# Swerty:sweden::us::keyboard::massage_man:
 
 A Swedish keyboard layout for US keyboards.
 
