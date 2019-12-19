@@ -22,19 +22,16 @@ Swerty for Windows
 ### Swerty for Windows
 ![](swerty-win.svg)
 
-Download Swerty for Windows
-[](swerty-win.zip)
-
+#### Install Swerty for Windows
 (Tested on XP, Vista, and 7)
-
-To install Swerty for Windows, uncompress the zip-file and run ‘setup.exe’.
+Download [Swerty-win.zip](swerty-win.zip) from the repo, uncompress the zip-file and run ‘setup.exe’.
 
 If you need to modify Swerty for Windows, you can do so by editing ‘Swerty.klc’ with Microsoft Keyboard Layout Creator.
 
 ## Swerty for Mac
 ![](swerty-mac.svg)
 
-### Intallation
+### Mac Wget Intall
 (Tested on Snow Leopard, Lion, Mountain Lion, Mavericks, Yosemite, Sierra, Mojave, Catalina)
 
 1. Copy/paste this command into your Terminal.app and press enter to run.
@@ -45,19 +42,20 @@ wget https://raw.githubusercontent.com/rubensz/swerty/master/Swerty.keylayout -o
 3. Go into System Preferences/Keyboard/Input Sources, hit the plus sign and add Swerty.
 4. Select Swerty as your Input Source. 
 
-#### Manual install
+#### Mac Manual Install
 1. Download the files `Swerty.keylayout` and `Swerty.icns` from the repo. 
 2. Move the files to the folder ‘~/Library/Keyboard Layouts’.
 3. Restart your computer.
 4. Go into System Preferences/Keyboard/Input Sources, hit the plus sign and add Swerty.
 5. Select Swerty as your Input Source. 
 
-### Swerty for Linux
+## Swerty for Ubuntu
 ![](swerty-linux.svg)
 
 Download Swerty for Linux
-![](swerty-linux.tar.gz)
 
 (Tested on Ubuntu 9.04, 9.10, 10.04, and 12.04)
 
-To install Swerty for Linux, uncompress the tar.gz-file and follow the instructions in the file ‘instructions.txt’.
+To install Swerty for Ubuntu, download [swerty-linux.tar.gz](swerty-linux.tar.gz) uncompress the tar.gz-file and follow ‘instructions.txt’.
+
+(I been meaning to create a bash script that installs Swerty automatically on Ubuntu. Anybody that wants to help out with this are welcome. (Ruben))
