@@ -23,14 +23,13 @@ Swerty for Windows
 ![](swerty-win.svg)
 
 Download Swerty for Windows
-![](swerty-win.zip)
+[](swerty-win.zip)
 
 (Tested on XP, Vista, and 7)
 
 To install Swerty for Windows, uncompress the zip-file and run ‘setup.exe’.
 
 If you need to modify Swerty for Windows, you can do so by editing ‘Swerty.klc’ with Microsoft Keyboard Layout Creator.
-Swerty for Mac
 
 ## Swerty for Mac
 ![](swerty-mac.svg)
