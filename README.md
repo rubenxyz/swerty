@@ -35,7 +35,7 @@ Swerty for Mac
 
 If you already have Homebrew and Git, skip step 1 and 2. 
 
-1. Install [Homebrew](https://brew.sh/). Copy/paste this line of code into your Terminal.app and press enter to run.
+1. Install [Homebrew](https://brew.sh/). Copy/paste this command into your Terminal.app and press enter to run.
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
