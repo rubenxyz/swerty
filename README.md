@@ -31,28 +31,14 @@ Swerty for Mac
 
 ### Intallation
 (Tested on Snow Leopard, Lion, Mountain Lion, Mavericks, Yosemite, Sierra, Mojave, Catalina)
-#### Homebrew
 
-If you already have Homebrew and Git, skip step 1 and 2. 
-
-1. Install [Homebrew](https://brew.sh/). Copy/paste this command into your Terminal.app and press enter to run.
+1. Copy/paste this command into your Terminal.app and press enter to run.
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+wget https://raw.githubusercontent.com/rubensz/swerty/master/Swerty.keylayout -o ~/Library/Keyboard\ Layouts && wget https://raw.githubusercontent.com/rubensz/swerty/master/Swerty.icns -o ~/Library/Keyboard\ Layouts
 ```
-
-2. When Homebrew is installed, copy/paste this into your terminal and press Enter to run. 
-```
-brew install git
-```
-
-3. Finally, copy/paste this command in your terminal to install Swerty and press enter to run. 
-
-```
-git clone https://github.com/rubensz/swerty/blob/master/Swerty.keylayout ~/Library/Keyboard\ Layouts && git clone https://github.com/rubensz/swerty/blob/master/Swerty.icns ~/Library/Keyboard\ Layouts
-```
-3. Restart your computer.
-4. Go into System Preferences/Keyboard/Input Sources, hit the plus sign and add Swerty.
-5. Select Swerty as your Input Source. 
+2. Restart your computer.
+3. Go into System Preferences/Keyboard/Input Sources, hit the plus sign and add Swerty.
+4. Select Swerty as your Input Source. 
 
 #### Manual install
 1. Download the files `Swerty.keylayout` and `Swerty.icns` from the repo. 
