@@ -1,33 +1,30 @@
-# Swerty:sweden::us::keyboard::massage_man:
+# SWERTY:sweden::cowboy_hat_face:
 
 A Swedish keyboard layout for US keyboards.
 
-This repo is a mirror of [http://johanegustafsson.net/projects/swerty](http://johanegustafsson.net/projects/swerty/). Big thanks to Johan E. Gustafsson for creating this layout.
-
-The Swerty Keyboard Layout is a software keyboard layout for efficient typing in Swedish on US keyboards. 
-
-The design goal for the Swerty layout is to retain as much as possible of the standard US layout (also known as the ANSI keyboard layout), while adding the keys **Å**, **Ä**, and **Ö** from the standard Swedish layout. 
-
-This alternative software layout is especially useful if you are working on a US keyboard and want to write in Swedish. Arguably, Swerty is a better choice than the standard Swedish layout even if you are working on a Swedish keyboard, as it incorporates more of the superior key arrangement of the US layout. 
-
-With the standard Swedish layout, many frequently used symbols are surprisingly inconvenient to type, such as **@** in email addresses, / in web addresses, and **$** in programming. These conventions were set by people who used the US layout where these symbols can be typed conveniently. The Swerty layout makes it possible to enjoy this convenience while typing in Swedish.
-
-![](swerty.svg)
+(This repo is a mirror of [http://johanegustafsson.net/projects/swerty](http://johanegustafsson.net/projects/swerty/). Big thanks to Johan E. Gustafsson for creating this layout.)
 
 ## Swerty basic
 
 The idea is to retain most of the US layout, but to have the keys **Å**, **Ä**, and **Ö** in their same positions as in the standard Swedish layout, replacing the ;, ', and [ keys in the US layout. The ] key is replaced by a dead key for acute and grave accents. The replaced keys from the US layout are reached by pressing **Alt Gr** and the original key. This basic layout has been altered somewhat in order to suit Mac, Linux, and Windows environments.
-Swerty for Windows
 
-### Swerty for Windows
-![](swerty-win.svg)
+### :white_check_mark:For the expat:us:
+The Swerty Keyboard Layout is a software keyboard layout for efficient typing in Swedish on US keyboards. 
 
-#### Install Swerty for Windows
-(Tested on XP, Vista, and 7)
-Download [Swerty-win.zip](swerty-win.zip) from the repo, uncompress the zip-file and run ‘setup.exe’.
+The design goal for the Swerty layout is to retain as much as possible of the standard US layout (also known as the ANSI keyboard layout), while adding the keys **Å**, **Ä**, and **Ö** from the standard Swedish layout. 
 
-If you need to modify Swerty for Windows, you can do so by editing ‘Swerty.klc’ with Microsoft Keyboard Layout Creator.
+This alternative software layout is especially useful if you are working on a US keyboard and want to write in Swedish.
 
+### :white_check_mark:For the programmer:sunglasses::computer:
+Arguably, Swerty is a better choice than the standard Swedish layout even if you are working on a Swedish keyboard, as it incorporates more of the superior key arrangement of the US layout. 
+
+With the standard Swedish layout, many frequently used symbols are surprisingly inconvenient to type, such as **@** in email addresses, / in web addresses, and **$** in programming. These conventions were set by people who used the US layout where these symbols can be typed conveniently. The Swerty layout makes it possible to enjoy this convenience while typing in Swedish.
+
+### :white_check_mark:For the Swedish keyboard enthusiast:keyboard:
+Swerty enables Swedish speaker to use the superior ANSI keyboard layout. As ANSI is the most common layout in the US market, the supply is significantly wider and cheaper, if you are looking to buy a mechanical or a vintage keyboard.
+
+![](swerty.svg)
+___
 ## Swerty for Mac
 ![](swerty-mac.svg)
 
@@ -48,6 +45,14 @@ wget https://raw.githubusercontent.com/rubensz/swerty/master/Swerty.keylayout -o
 3. Restart your computer.
 4. Go into System Preferences/Keyboard/Input Sources, hit the plus sign and add Swerty.
 5. Select Swerty as your Input Source. 
+### Swerty for Windows
+![](swerty-win.svg)
+
+#### Install Swerty for Windows
+(Tested on XP, Vista, and 7)
+Download [Swerty-win.zip](swerty-win.zip) from the repo, uncompress the zip-file and run ‘setup.exe’.
+
+If you need to modify Swerty for Windows, you can do so by editing ‘Swerty.klc’ with Microsoft Keyboard Layout Creator.
 
 ## Swerty for Ubuntu
 ![](swerty-linux.svg)
