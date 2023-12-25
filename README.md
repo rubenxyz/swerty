@@ -59,8 +59,9 @@ If you need to modify Swerty for Windows, you can do so by editing ‘Swerty.klc
 
 Download Swerty for Linux
 
-(Tested on Ubuntu 9.04, 9.10, 10.04, and 12.04)
+(Tested on Ubuntu 9.04, 9.10, 10.04, and 12.04, 20.04, 22.04)
 
-To install Swerty for Ubuntu, download [swerty-linux.tar.gz](swerty-linux.tar.gz) uncompress the tar.gz-file and follow ‘instructions.txt’.
+Download [swerty-ubuntu](swerty-ubuntu) and run ```sudo ./install.sh```
 
-(I been meaning to create a bash script that installs Swerty automatically on Ubuntu. Anybody that wants to help out with this are welcome. (Ruben))
+### Manual install
+To install manually for Ubuntu, download [swerty-linux.tar.gz](swerty-linux.tar.gz) uncompress the tar.gz-file and follow ‘instructions.txt’.
